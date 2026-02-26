@@ -47,7 +47,7 @@ export default function About() {
         <div className="md:w-1/2 flex flex-col gap-8">
           <div>
             <h2 className="text-4xl md:text-5xl text-white mb-4">About Me</h2>
-            <p className="text-gray-300 text-lg md:text-xl max-w-lg">
+            <p className="github-font text-white text-[17px] md:text-[18px] max-w-2xl leading-7 tracking-wide font-normal">
              I'm a passionate developer with an unwavering love for bringing ideas to life through code. For the past 3 years, I've been immersed in the ever-evolving tech industry, where I've had the incredible privilege of working on a diverse array of projects—from dynamic mobile apps to sophisticated web applications. Each project has fueled my passion for problem-solving and creativity, pushing me to constantly strive for excellence. Throughout my journey, I've sharpened my skills in Python (Django), C# (.NET), and Angular, but my hunger for knowledge and personal growth drives me to explore new technologies, frameworks, and innovative solutions.
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni saepe, explicabo nihil. Est, autem error cumque ipsum repellendus veniam sed blanditiis unde ullam maxime veritatis perferendis cupiditate, at non esse!

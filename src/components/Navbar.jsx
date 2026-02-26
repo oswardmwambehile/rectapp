@@ -21,7 +21,9 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-xl font-bold">Osward</h1>
+        <h1 className="text-3xl text-green-700" style={{ fontFamily: "Pacifico, cursive" }}>
+  Osward
+</h1>
 
         {/* Desktop Links */}
         <div className="hidden md:flex gap-6 items-center">
@@ -33,7 +35,7 @@ export default function Navbar() {
           <a href="#education" className="hover:text-green-400 transition">Education</a>
           <a href="#motivation" className="hover:text-green-400 transition">Motivations</a>
           
-          <ThemeToggle />
+          
         </div>
 
         {/* Mobile Hamburger */}
@@ -55,7 +57,7 @@ export default function Navbar() {
           <a href="#contact" onClick={() => setMobileOpen(false)}>Contact</a>
           <a href="#educataion" onClick={() => setMobileOpen(false)}>Education</a>
           <a href="#motivatins" onClick={() => setMobileOpen(false)}>Motivations</a>
-          <ThemeToggle />
+          
         </div>
       )}
     </nav>

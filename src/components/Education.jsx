@@ -4,9 +4,9 @@ import { FaGraduationCap, FaSchool } from "react-icons/fa";
 const educationData = [
   {
     level: "Degree",
-    title: "Bachelor of Science in Information Technology",
-    school: "University of Dar es Salaam",
-    duration: "2018 - 2022",
+    title: "Bachelor Degree in Information Technology",
+    school: "National Institute of Transport (NIT)",
+    duration: "2020 - 2023",
     description:
       "Focused on software engineering, web technologies, databases, networking, and cloud computing.",
     icon: <FaGraduationCap size={26} />,
@@ -14,8 +14,8 @@ const educationData = [
   {
     level: "Advanced Education",
     title: "Advanced Secondary Education",
-    school: "St. Constantine High School",
-    duration: "2015 - 2018",
+    school: "Matema Beach Secondary School",
+    duration: "2018 - 2020",
     description:
       "Specialized in Physics, Mathematics, and Computer Studies.",
     icon: <FaGraduationCap size={26} />,
@@ -23,8 +23,8 @@ const educationData = [
   {
     level: "Secondary Education",
     title: "Ordinary Secondary Education",
-    school: "St. Michael Secondary School",
-    duration: "2012 - 2015",
+    school: "Mwaya Secondary School",
+    duration: "2014 - 2017",
     description:
       "Completed O-Level education with strong academic performance.",
     icon: <FaSchool size={26} />,
@@ -32,8 +32,8 @@ const educationData = [
   {
     level: "Primary Education",
     title: "Primary School Certificate",
-    school: "St. Mary Primary School",
-    duration: "2006 - 2012",
+    school: "Mwaya Primary School",
+    duration: "2007 - 2013",
     description:
       "Built strong academic foundation and leadership skills.",
     icon: <FaSchool size={26} />,

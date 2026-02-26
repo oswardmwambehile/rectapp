@@ -5,12 +5,12 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="w-full min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 relative overflow-hidden bg-gray-900 text-gray-100"
+      className="w-full min-h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-30 py-30 relative overflow-hidden bg-gray-900 text-gray-100"
     >
       {/* LEFT SIDE */}
       <div className="md:w-1/2 flex flex-col gap-6 z-10">
-        <h1 className="text-5xl md:text-6xl font-bold text-white">
-          Hi, I&apos;m <span className="text-red-400">Osward</span>
+        <h1 className="text-5xl md:text-6xl  text-white">
+          Hi, I&apos;m <span className="text-red-400" style={{ fontFamily: "Pacifico, cursive" }}>Osward</span>
         </h1>
 
         <h2 className="text-3xl md:text-4xl font-semibold text-green-400">
@@ -30,10 +30,15 @@ export default function Hero() {
           />
         </h2>
 
-        <p className="text-gray-300 text-lg md:text-xl max-w-xl leading-relaxed">
-          Excellence in Technology Industry — merging innovation with reliability,
-          delivering scalable, modern, and high-performance web applications
-          using React, Tailwind CSS, Laravel, and Django.
+        <p className="github-font text-white text-[17px] md:text-[18px] max-w-2xl leading-7 tracking-wide font-normal">
+          Excellence in the Technology Industry is not just a goal — it is a standard.
+  I merge innovation with reliability to craft scalable, secure, and 
+  high-performance web applications that solve real-world problems. 
+  Leveraging modern technologies such as React, Tailwind CSS, Laravel, 
+  and Django, I develop dynamic, responsive, and user-centered digital 
+  experiences. My focus is on writing clean, maintainable code, implementing 
+  efficient architectures, and delivering solutions that exceed expectations 
+  while remaining adaptable to future growth and technological evolution.
         </p>
 
         <a

@@ -2,55 +2,55 @@ import React from "react";
 
 const projects = [
   {
-    title: "React Portfolio Website",
-    image: "/images/project1.png",
+    title: "Online Shopping System",
+    image: "/shop.PNG",
     description:
-      "Modern Developer Portfolio Website built with React and Tailwind CSS with animated navbar, hero section, and interactive projects carousel.",
+      "A comprehensive e-commerce platform that allows users to browse products, add items to their cart, make secure payments, and track shipments, all within an intuitive user interface.",
     libraries: ["React", "Tailwind CSS", "Framer Motion", "React Icons"],
-    live: "https://your-live-demo-link.com",
+    live: "https://oswardimwambehile.pythonanywhere.com/",
     github: "https://github.com/yourusername/react-portfolio",
   },
   {
-    title: "AI Recipe Generator",
-    image: "/images/project2.png",
+    title: "Student Studying Portal",
+    image: "/portal.PNG",
     description:
-      "Full-Stack AI Recipe Generator App using PERN stack (PostgreSQL, Express, React, Node.js).",
+      "An online portal designed to help students manage their study materials, track progress, access resources, and connect with peers and instructors for a seamless learning experience.",
     libraries: ["React", "Node.js", "Express", "PostgreSQL", "Axios"],
-    live: "https://your-live-demo-link.com",
+    live: "https://kondeosward.pythonanywhere.com/",
     github: "https://github.com/yourusername/ai-recipe-generator",
   },
   {
-    title: "Learning Assistant App",
-    image: "/images/project3.png",
+    title: "Donation and Volunteer System",
+    image: "/donna.PNG",
     description:
-      "AI-Powered Learning Assistant built with MERN stack, offering personalized content and Q&A features.",
+      "A platform that connects donors and volunteers with various charitable organizations. It allows users to donate items or money, volunteer for events, and track their contributions in real-time.",
     libraries: ["React", "MongoDB", "Node.js", "Express", "ChatGPT API"],
-    live: "https://your-live-demo-link.com",
+    live: "https://philimonosward.pythonanywhere.com/",
     github: "https://github.com/yourusername/learning-assistant",
   },
   {
-    title: "E-commerce Store",
-    image: "/images/project4.png",
+    title: "Staystz Booking,Car Rental And Residence System",
+    image: "/stay.PNG",
     description:
       "Fully functional e-commerce store with product listings, shopping cart, and payment gateway integration.",
     libraries: ["React", "Tailwind CSS", "Stripe API", "React Router"],
-    live: "https://your-live-demo-link.com",
+    live: "https://staystz.pythonanywhere.com/",
     github: "https://github.com/yourusername/ecommerce-store",
   },
   {
-    title: "Task Management App",
-    image: "/images/project5.png",
+    title: "StudyingBuddy Room Application",
+    image: "/o.JPG",
     description:
-      "Task management and productivity app with drag-and-drop features and real-time updates.",
+      "An online portal designed to help students manage their study materials, track progress, access resources, and connect with peers and instructors for a seamless learning experience.",
     libraries: ["React", "Firebase", "Tailwind CSS", "React Beautiful DnD"],
-    live: "https://your-live-demo-link.com",
-    github: "https://github.com/yourusername/task-manager",
+    live: "https://oswadphilimonmwambehile.pythonanywhere.com/",
+    github: "https://oswadphilimonmwambehile.pythonanywhere.com/",
   },
   {
-    title: "Blog Platform",
-    image: "/images/project6.png",
+    title: "Kyela District Grievances System",
+    image: "/kyela.PNG",
     description:
-      "Responsive blog platform with rich text editor, comments, and user authentication.",
+      "A platform that allows citizens of Kyela District to submit grievances and complaints related to public services. The system helps authorities track, manage, and respond to issues for better governance..",
     libraries: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     live: "https://your-live-demo-link.com",
     github: "https://github.com/yourusername/blog-platform",
