@@ -9,7 +9,7 @@ export default function Hero() {
     >
       {/* LEFT SIDE */}
       <div className="md:w-1/2 flex flex-col gap-6 z-10">
-        <h1 className="text-5xl md:text-6xl  text-white">
+        <h1 className="text-5xl md:text-6xl  text-red-400" style={{ fontFamily: "Pacifico, cursive" }}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         >
           Hi, I&apos;m <span className="text-red-400" style={{ fontFamily: "Pacifico, cursive" }}>Osward Mwambehile</span>
         </h1>
 
