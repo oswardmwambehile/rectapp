@@ -2,37 +2,37 @@ import React from "react";
 
 const projects = [
   {
-    title: "Online Shopping System",
-    image: "/shop.PNG",
+    title: "Staystz Booking,Car Rental And Residence System",
+    image: "/portifolio.PNG",
     description:
-      "A comprehensive e-commerce platform that allows users to browse products, add items to their cart, make secure payments, and track shipments, all within an intuitive user interface.",
+      "Stays is a comprehensive digital platform designed to simplify and streamline the management of travel-related services, including car rentals, property bookings, and residence management. The system offers users a seamless experience from browsing available cars or properties, making reservations, and managing their bookings in real-time.",
     libraries: ["React", "Tailwind CSS", "Framer Motion", "React Icons"],
-    live: "https://oswardimwambehile.pythonanywhere.com/",
+    live: "https://www.staystz.com/",
     github: "https://github.com/yourusername/react-portfolio",
   },
   {
     title: "Student Studying Portal",
     image: "/portal.PNG",
     description:
-      "An online portal designed to help students manage their study materials, track progress, access resources, and connect with peers and instructors for a seamless learning experience.",
+      "An online portal designed to help students organize and manage their study materials, track their academic progress, access a wide range of learning resources, and connect with peers and instructors for a seamless learning experience.The system allows students to upload and categorize notes, assignments, and project files, making it easy to retrieve and review materials anytime. ",
     libraries: ["React", "Node.js", "Express", "PostgreSQL", "Axios"],
     live: "https://kondeosward.pythonanywhere.com/",
     github: "https://github.com/yourusername/ai-recipe-generator",
   },
   {
-    title: "Donation and Volunteer System",
-    image: "/donna.PNG",
+    title: "Online Shopping System ",
+    image: "/shop.PNG",
     description:
-      "A platform that connects donors and volunteers with various charitable organizations. It allows users to donate items or money, volunteer for events, and track their contributions in real-time.",
+      "An online shopping system designed to provide users with a seamless and convenient e-commerce experience. It allows customers to browse products, compare options, and make purchases from anywhere at any time.The system features user authentication, product catalogs, shopping carts, and secure payment gateways, ensuring a smooth and safe shopping process. Customers can track their orders, view order history, and receive real-time updates on delivery status",
     libraries: ["React", "MongoDB", "Node.js", "Express", "ChatGPT API"],
     live: "https://philimonosward.pythonanywhere.com/",
     github: "https://github.com/yourusername/learning-assistant",
   },
   {
-    title: "Staystz Booking,Car Rental And Residence System",
-    image: "/stay.PNG",
+    title: "Volunteer And Donation System",
+    image: "/donna.PNG",
     description:
-      "Fully functional e-commerce store with product listings, shopping cart, and payment gateway integration.",
+      "A web-based platform designed to connect volunteers, donors, and charitable organizations to make social impact more organized and efficient. The system allows users to register as volunteers, browse volunteer opportunities, and participate in community service events.",
     libraries: ["React", "Tailwind CSS", "Stripe API", "React Router"],
     live: "https://staystz.pythonanywhere.com/",
     github: "https://github.com/yourusername/ecommerce-store",
@@ -80,16 +80,7 @@ const Projects = () => {
                   {project.title}
                 </h3>
                 <p className="text-gray-300 mb-4">{project.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.libraries.map((lib, idx) => (
-                    <span
-                      key={idx}
-                      className="bg-green-700/30 text-green-400 px-3 py-1 rounded-full text-sm backdrop-blur-sm"
-                    >
-                      {lib}
-                    </span>
-                  ))}
-                </div>
+                
                 <div className="flex justify-between">
                   <a
                     href={project.live}
@@ -99,14 +90,7 @@ const Projects = () => {
                   >
                     Live Demo
                   </a>
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition"
-                  >
-                    GitHub
-                  </a>
+                  
                 </div>
               </div>
             </div>

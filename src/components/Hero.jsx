@@ -9,8 +9,8 @@ export default function Hero() {
     >
       {/* LEFT SIDE */}
       <div className="md:w-1/2 flex flex-col gap-6 z-10">
-        <h1 className="text-5xl md:text-6xl  text-white">
-          Hi, I&apos;m <span className="text-red-400" style={{ fontFamily: "Pacifico, cursive" }}>Osward</span>
+        <h1 className="text-2xl md:text-3xl  text-white">
+          Hi, I&apos;m <span className="text-blue-700">OSWARD MWAMBEHILE</span>
         </h1>
 
         <h2 className="text-3xl md:text-4xl font-semibold text-green-400">
@@ -36,14 +36,12 @@ export default function Hero() {
   high-performance web applications that solve real-world problems. 
   Leveraging modern technologies such as React, Tailwind CSS, Laravel, 
   and Django, I develop dynamic, responsive, and user-centered digital 
-  experiences. My focus is on writing clean, maintainable code, implementing 
-  efficient architectures, and delivering solutions that exceed expectations 
-  while remaining adaptable to future growth and technological evolution.
+  experiences.
         </p>
 
         <a
-          href="#projects"
-          className="w-max px-8 py-3 bg-blue-700 text-white rounded-xl hover:bg-blue-800 transition duration-300 shadow-lg shadow-green-500/30"
+          href="https://github.com/oswardmwambehile?tab=repositories" 
+          className="w-max px-8 py-3 bg-green-700 text-white rounded-xl hover:bg-green-800 transition duration-300 shadow-lg shadow-green-500/30" target="_blank"
         >
           Visit My GitHub
         </a>
@@ -54,7 +52,7 @@ export default function Hero() {
         
         <div className="relative w-[420px] h-[420px] md:w-[520px] md:h-[520px] flex items-center justify-center float-animation">
 
-          {/* Rotating Gradient Glow */}
+ssss          {/* Rotating Gradient Glow */}
           <div className="absolute inset-0 rounded-[40px] bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 animate-spin-slow blur-2xl opacity-70"></div>
 
           {/* Glass Background Layer */}

@@ -59,21 +59,21 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-2">
                 <FaWhatsapp className="text-green-500" />
-                <span>+255 987 654 321</span>
+                <span>+255 689 859 255</span>
               </div>
               <div className="flex items-center gap-2">
                 <FaEnvelope className="text-blue-400" />
-                <span>youremail@example.com</span>
+                <span>oswardmwambehile@gmail.com</span>
               </div>
               <div className="flex gap-4 mt-4">
                 <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                  <FaGithub size={30} className="hover:text-white transition text-gray-400" />
+                  <FaGithub size={30} className="hover:text-white transition text-red-400" />
                 </a>
                 <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin size={30} className="hover:text-blue-500 transition text-gray-400" />
+                  <FaLinkedin size={30} className="hover:text-blue-500 transition text-red-400" />
                 </a>
                 <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-                  <FaTwitter size={30} className="hover:text-blue-400 transition text-gray-400" />
+                  <FaTwitter size={30} className="hover:text-blue-400 transition text-red-400" />
                 </a>
               </div>
             </div>
