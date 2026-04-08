@@ -16,7 +16,7 @@ const projects = [
     description:
       "An online portal designed to help students organize and manage their study materials, track their academic progress, access a wide range of learning resources, and connect with peers and instructors for a seamless learning experience.The system allows students to upload and categorize notes, assignments, and project files, making it easy to retrieve and review materials anytime. ",
     libraries: ["React", "Node.js", "Express", "PostgreSQL", "Axios"],
-    live: "https://kondeosward.pythonanywhere.com/",
+    live: "https://student-studying-portal.onrender.com/",
     github: "https://github.com/yourusername/ai-recipe-generator",
   },
   {
@@ -25,8 +25,16 @@ const projects = [
     description:
       "An online shopping system designed to provide users with a seamless and convenient e-commerce experience. It allows customers to browse products, compare options, and make purchases from anywhere at any time.The system features user authentication, product catalogs, shopping carts, and secure payment gateways, ensuring a smooth and safe shopping process. Customers can track their orders, view order history, and receive real-time updates on delivery status",
     libraries: ["React", "MongoDB", "Node.js", "Express", "ChatGPT API"],
-    live: "https://philimonosward.pythonanywhere.com/",
+    live: "https://my-project-1-yf3a.onrender.com/",
     github: "https://github.com/yourusername/learning-assistant",
+  },
+  {
+    title: "Sales Tracking System",
+    image: "/sales.PNG",
+    description:
+      "A system to manage and monitor sales visits. Tracks sales personnel, customer interactions, meeting stages, products discussed, and payment collection. Provides a clear overview of leads, prospects, and customers while recording sales outcomes and visit history.",
+    live: "https://sales-tracking-system-xsjn.onrender.com/",
+    github: "https://github.com/yourusername/ecommerce-store",
   },
   {
     title: "Volunteer And Donation System",
@@ -34,7 +42,7 @@ const projects = [
     description:
       "A web-based platform designed to connect volunteers, donors, and charitable organizations to make social impact more organized and efficient. The system allows users to register as volunteers, browse volunteer opportunities, and participate in community service events.",
     libraries: ["React", "Tailwind CSS", "Stripe API", "React Router"],
-    live: "https://staystz.pythonanywhere.com/",
+    live: "https://donation-andvolunteer-sytem.onrender.com/",
     github: "https://github.com/yourusername/ecommerce-store",
   },
   {
@@ -43,7 +51,7 @@ const projects = [
     description:
       "An online portal designed to help students manage their study materials, track progress, access resources, and connect with peers and instructors for a seamless learning experience.",
     libraries: ["React", "Firebase", "Tailwind CSS", "React Beautiful DnD"],
-    live: "https://oswadphilimonmwambehile.pythonanywhere.com/",
+    live: "https://student-studying-room.onrender.com/",
     github: "https://oswadphilimonmwambehile.pythonanywhere.com/",
   },
   {

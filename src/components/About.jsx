@@ -9,7 +9,7 @@ export default function About() {
         <img
           src="konde.png"
           alt="Osward"
-          className="w-96 h-96 md:w-[500px] md:h-[500px] object-cover rounded-xl shadow-lg"
+          className="w-96 h-96 md:w-[400px] md:h-[400px] object-cover rounded-xl shadow-lg"
         />
       </div>
 
@@ -20,8 +20,7 @@ export default function About() {
           <p className="github-font text-white text-[17px] md:text-[18px] leading-7 tracking-wide font-normal">
             I'm a passionate developer with an unwavering love for bringing ideas to life through code. For the past 3 years, I've been immersed in the ever-evolving tech industry, where I've had the incredible privilege of working on a diverse array of projects—from dynamic mobile apps to sophisticated web applications. Each project has fueled my passion for problem-solving and creativity, pushing me to constantly strive for excellence. Throughout my journey, I've sharpened my skills in Python (Django), C# (.NET), and Angular, but my hunger for knowledge and personal growth drives me to explore new technologies, frameworks, and innovative solutions.
 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni saepe, explicabo nihil. Est, autem error cumque ipsum repellendus veniam sed blanditiis unde ullam maxime veritatis perferendis cupiditate, at non esse!
-
+            
             What excites me most is the limitless potential of technology to transform ideas into tangible, meaningful impact. I firmly believe that when used the right way, technology isn't just a tool—it's a force that can inspire change, empower communities, and solve some of the world's most pressing challenges. That’s what fuels my passion every day: the opportunity to build, to create, and to leave a lasting impact through the projects I contribute to..
           </p>
         </div>
@@ -40,8 +39,8 @@ export default function About() {
           </div>
           <div className="glass p-6 flex-1 rounded-xl text-center hover:scale-105 transition transform">
             <FaAward size={40} className="mx-auto mb-2 text-purple-400" />
-            <h3 className="text-2xl font-bold text-white">10+</h3>
-            <p className="text-gray-300">Awards Won</p>
+            <h3 className="text-2xl font-bold text-white">1000+</h3>
+            <p className="text-gray-300">Commits</p>
           </div>
         </div>
       </div>

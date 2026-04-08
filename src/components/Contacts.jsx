@@ -55,7 +55,7 @@ const Contact = () => {
             <div className="flex flex-col gap-4 text-gray-300 mt-4">
               <div className="flex items-center gap-2">
                 <FaPhone className="text-green-400" /> 
-                <span>+255 123 456 789</span>
+                <span>+255 689 859 255</span>
               </div>
               <div className="flex items-center gap-2">
                 <FaWhatsapp className="text-green-500" />
